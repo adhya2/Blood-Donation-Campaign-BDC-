@@ -162,7 +162,7 @@ export function DonationForm() {
                     type="email"
                     value={formData.email}
                     onChange={(e) => handleChange("email", e.target.value)}
-                    placeholder="your_email@skit.ac.in"
+                    placeholder="your_email@bloodbridge.ac.in"
                   />
                   {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
                 </motion.div>
@@ -232,7 +232,7 @@ export function DonationForm() {
                     <SelectContent>
                       <SelectItem value="student">Student</SelectItem>
                       <SelectItem value="staffmanager">Staff Manager</SelectItem>
-                      <SelectItem value="outsideskit">Outside SKIT</SelectItem>
+                      <SelectItem value="outsidebloodbridge">Outside BloodBridge</SelectItem>
                     </SelectContent>
                   </Select>
                   {errors.roleType && <p className="text-red-500 text-sm">{errors.roleType}</p>}

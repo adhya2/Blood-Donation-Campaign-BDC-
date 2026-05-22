@@ -48,7 +48,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="mailto:sanidhya.web@gmail.com"
+                  href="mailto:adhya.web@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Report Bug

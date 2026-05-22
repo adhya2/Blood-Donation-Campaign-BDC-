@@ -23,9 +23,9 @@ export async function POST(req: Request) {
         })
 
         await transporter.sendMail({
-            from: `"SKIT Blood Donation" <${process.env.SMTP_USER}>`,
+            from: `"BloodBridge Blood Donation" <${process.env.SMTP_USER}>`,
             to: data.email,
-            subject: "❤️ Blood Donation Registration Confirmation ✅",
+            subject: "🩸 Blood Donation Registration Confirmation ✅",
             html: `
 <!DOCTYPE html>
 <html lang="en">
@@ -65,7 +65,7 @@ export async function POST(req: Request) {
             <td style="padding:40px 30px 20px;">
               <h2 style="margin:0 0 15px; color:#111827; font-size:24px; font-weight:600;">Hi ${data.fullName} 👋</h2>
               <p style="margin:0; color:#6b7280; font-size:16px; line-height:1.6;">
-                Thank you for registering to donate blood with <strong style="color:#dc2626;">SKIT Blood Donation</strong>. Your generosity will help save lives in our community.
+                Thank you for registering to donate blood with <strong style="color:#dc2626;">BloodBridge Blood Donation</strong>. Your generosity will help save lives in our community.
               </p>
             </td>
           </tr>
@@ -117,7 +117,7 @@ export async function POST(req: Request) {
           <!-- Footer -->
           <tr>
             <td style="padding:0 30px 40px; text-align:center;">
-              <p style="margin:0; color:#111827; font-size:16px; font-weight:600;">— SKIT Blood Donation Team ❤️</p>
+              <p style="margin:0; color:#111827; font-size:16px; font-weight:600;">— BloodBridge Blood Donation Team 🩸</p>
             </td>
           </tr>
 
