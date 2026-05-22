@@ -3,11 +3,11 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { motion } from "framer-motion"
-import { Heart, Users, Award, Target } from "lucide-react"
+import { Droplet, Users, Award, Target } from "lucide-react"
 
 export default function AboutPage() {
   const stats = [
-    { icon: Heart, label: "Lives Saved", value: "50,000+" },
+    { icon: Droplet, label: "Lives Saved", value: "50,000+" },
     { icon: Users, label: "Active Donors", value: "25,000+" },
     { icon: Award, label: "Years of Service", value: "15+" },
     { icon: Target, label: "Blood Camps", value: "500+" },
@@ -24,7 +24,7 @@ export default function AboutPage() {
       title: "Our Vision",
       description:
         "A world where every person has access to safe blood when they need it. We envision a community of regular donors who understand the life-saving impact of their contribution.",
-      icon: Heart,
+      icon: Droplet,
     },
     {
       title: "Our Values",

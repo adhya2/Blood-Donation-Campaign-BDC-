@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Heart, Menu, X } from "lucide-react"
+import { Droplet, Menu, X } from "lucide-react"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
@@ -14,7 +14,7 @@ export function Header() {
       <nav className="container flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2 font-bold text-xl group">
           <motion.div whileHover={{ scale: 1.1, rotate: 5 }} transition={{ duration: 0.3 }}>
-            <Heart className="h-6 w-6 text-primary fill-primary" />
+            <Droplet className="h-6 w-6 text-primary fill-primary" />
           </motion.div>
           <span className="text-balance group-hover:text-primary transition-colors">BDC</span>
         </Link>

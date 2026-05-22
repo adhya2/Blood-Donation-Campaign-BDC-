@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Heart } from "lucide-react"
+import { ArrowRight, Droplet } from "lucide-react"
 import Link from "next/link"
 import { motion } from "framer-motion"
 
@@ -52,7 +52,7 @@ export function HeroSection() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2, duration: 0.5 }}
             >
-              <Heart className="h-4 w-4 fill-primary" />
+              <Droplet className="h-4 w-4 fill-primary" />
               <span>Every donation saves up to 3 lives</span>
             </motion.div>
 
@@ -131,7 +131,7 @@ export function HeroSection() {
                     ease: "easeInOut",
                   }}
                 >
-                  <Heart className="h-6 w-6 text-primary fill-primary" />
+                  <Droplet className="h-6 w-6 text-primary fill-primary" />
                 </motion.div>
                 <div>
                   <div className="text-2xl font-bold text-primary">Join Us</div>

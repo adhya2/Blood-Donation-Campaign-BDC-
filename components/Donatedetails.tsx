@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import {
   ClipboardCheck,
-  Heart,
+  Droplet,
   Coffee,
   Award,
   CheckCircle2,
@@ -22,7 +22,7 @@ export function Donatedetails() {
       tips: ["Bring a valid ID", "Know your medical history", "List any medications you're taking"],
     },
     {
-      icon: Heart,
+      icon: Droplet,
       title: "Blood Donation",
       description:
         "You'll be seated comfortably while a trained phlebotomist collects your donation. The actual blood draw takes only 8-10 minutes. You can relax, read, or watch videos during this time.",

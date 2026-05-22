@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Heart, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Droplet, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -9,7 +9,7 @@ export function Footer() {
 
           <div className="flex flex-col items-start">
             <Link href="/" className="flex items-center gap-2 font-bold text-xl mb-4">
-              <Heart className="h-6 w-6 text-primary fill-primary" />
+              <Droplet className="h-6 w-6 text-primary fill-primary" />
               <span>BDC</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">

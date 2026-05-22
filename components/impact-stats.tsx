@@ -1,10 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Heart, Users, Building2, Globe } from "lucide-react"
+import { Droplet, Users, Building2, Globe } from "lucide-react"
 
 export function ImpactStats() {
   const stats = [
     {
-      icon: Heart,
+      icon: Droplet,
       value: "150K+",
       label: "Lives Saved",
       description: "Through blood donations since 2020",

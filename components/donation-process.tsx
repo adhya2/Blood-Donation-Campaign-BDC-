@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { ClipboardCheck, Heart, Coffee, Award } from "lucide-react"
+import { ClipboardCheck, Droplet, Coffee, Award } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function DonationProcess() {
@@ -13,7 +13,7 @@ export function DonationProcess() {
       duration: "10 min",
     },
     {
-      icon: Heart,
+      icon: Droplet,
       title: "Donation",
       description: "Relax while our trained staff safely collects your life-saving donation.",
       duration: "10 min",
